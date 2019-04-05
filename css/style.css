@@ -1,0 +1,140 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .4s;
+}
+h2,h3,h4,h5,h6{
+    margin-top:5px;
+}
+h6{
+  color:gray;
+  font-size: 11px;
+}
+h5{
+  color:black;
+  font-size: 20px;
+}
+.wp_sidebar{
+    position: fixed;
+}
+.wp_logo_field{
+    padding: 0 10px;
+}
+.wp_sidebar{
+    max-width:300px;
+    height:700px;
+    background-color:#f0f0f0;
+    box-shadow: 2px 2px 4px #444;
+}
+.wp_logo img{
+    margin-top:40%;
+    height:auto;
+    width: 100%;
+}
+.wp_logo_title h1{
+    margin-top:0;
+}
+
+.wp_heading_wrapper{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:300px;
+    position: fixed;
+    background-color:white;
+    width: 100%;
+    box-shadow: 2px 2px 4px #444;
+}
+
+.wp_login_field{
+    position: fixed;
+    margin-top: 200px;
+    margin-left:300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wp_input_group label{
+    font-size:16px;
+}
+
+
+/* MAIN */
+.wp_main_legend{
+    margin: 20px 0;
+    text-align: center;
+}
+.wp_main_map_overview #map{
+    height: 500px;
+    width: 100%;
+    margin-bottom:20px;
+}
+.wp_main_summary ul li{
+    font-size:17px;
+    display:block;
+}
+
+/* LOGIN ERROR */
+.login_error h6{
+  font-family: 'Verdana';
+  background-color:rgb(250,20,0);
+  padding:15px;
+  border-radius: 5px;
+  color:white;
+}
+
+/* SUCCESS */
+
+
+/* NOTIFICATION DROPDOWN */
+.dropdown-content{
+  background-color: #FFFFFF;
+  margin: 0;
+  display: none;
+  min-width: 330px; /* Changed this to accomodate content width */
+  max-height: auto;
+	margin-left: 8px; /* Add this to keep dropdown in line with edge of navbar */
+  top: -65px;
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  will-change: width, height;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+.circle{
+  /* padding-bottom: 15px; */
+  margin-top: 15px;
+}
+.title{
+  margin-left: -18px;
+}
+
+/*#dropdown_admin.dropdown_content{
+  min-width: 200px; /* Changed this to accomodate content width
+  max-height: auto;
+  margin-left: 8px;
+}*/
+
+#graph {
+  display: inline-block;
+  height: 250px;
+  margin: 0px;
+  width: 600px;
+}
+.location-title .container h2{
+  padding-top:30px;
+}
+.location-title .container table thead th hr{
+  width:10%;
+  border:solid 3px #1f77b4;
+}
+.location-title .container table thead .pressure_indicator hr{
+  width:10%;
+  border:solid 3px #ff7f0e;
+}
+.location-title .container table thead th{
+  text-align:center;
+}
+.location-title .container table tbody td{
+  text-align:center;
+}
